@@ -119,5 +119,6 @@
   </resheader>
   <data name="LoadingLabel" xml:space="preserve">
     <value>Loading...</value>
+    <comment>Used to indicate data is being retrieved from a high latency location (such as a remote server). Usually displayed either in place of a list or as the system tray's progress indicator label</comment>
   </data>
 </root>
