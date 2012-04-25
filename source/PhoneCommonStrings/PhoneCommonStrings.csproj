@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2338869B-1D5D-4BCF-893E-7E3A6FDA05A1}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PhoneCommonStrings</RootNamespace>
+    <AssemblyName>PhoneCommonStrings</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <TargetFrameworkProfile>WindowsPhone71</TargetFrameworkProfile>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <SilverlightApplication>false</SilverlightApplication>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Statuses.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Statuses.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ThemeColors.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ThemeColors.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Actions.Designer.cs">
+      <DependentUpon>Actions.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="AboutPage.Designer.cs">
+      <DependentUpon>AboutPage.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="CommonStringsAccessor.cs" />
+    <Compile Include="SettingsPage.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SettingsPage.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutPage.zh-TW.resx" />
+    <EmbeddedResource Include="Actions.zh-TW.resx" />
+    <EmbeddedResource Include="AboutPage.ru-RU.resx" />
+    <EmbeddedResource Include="Actions.ru-RU.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actions.en-GB.resx" />
+    <EmbeddedResource Include="ThemeColors.ru-RU.resx" />
+    <EmbeddedResource Include="Statuses.ru-RU.resx" />
+    <EmbeddedResource Include="SettingsPage.ru-RU.resx" />
+    <EmbeddedResource Include="ThemeColors.zh-TW.resx" />
+    <EmbeddedResource Include="SettingsPage.zh-TW.resx" />
+    <EmbeddedResource Include="Statuses.zh-TW.resx" />
+    <EmbeddedResource Include="Statuses.zh-CN.resx" />
+    <EmbeddedResource Include="Statuses.ja-JP.resx" />
+    <EmbeddedResource Include="Statuses.de-DE.resx" />
+    <EmbeddedResource Include="Statuses.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Statuses.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemeColors.ja-JP.resx" />
+    <EmbeddedResource Include="ThemeColors.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ThemeColors.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actions.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Actions.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Actions.ja-JP.resx" />
+    <EmbeddedResource Include="AboutPage.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AboutPage.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutPage.ja-JP.resx" />
+    <EmbeddedResource Include="Actions.de-DE.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutPage.de-DE.resx" />
+    <EmbeddedResource Include="ThemeColors.de-DE.resx" />
+    <EmbeddedResource Include="ThemeColors.en-GB.resx" />
+    <EmbeddedResource Include="Actions.zh-CN.resx" />
+    <EmbeddedResource Include="AboutPage.zh-CN.resx" />
+    <EmbeddedResource Include="ThemeColors.zh-CN.resx" />
+    <EmbeddedResource Include="SettingsPage.zh-CN.resx" />
+    <EmbeddedResource Include="SettingsPage.de-DE.resx" />
+    <EmbeddedResource Include="SettingsPage.ja-JP.resx" />
+    <EmbeddedResource Include="SettingsPage.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>SettingsPage.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PhoneCommonStrings.nuspec" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="nuget-readme.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <ProjectExtensions />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <BuildPackage>true</BuildPackage>
+  </PropertyGroup>
+  <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
+</Project>

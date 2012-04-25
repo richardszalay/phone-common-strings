@@ -1,0 +1,98 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="PhoneCommonStrings.Sample.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib"
+    xmlns:bab="clr-namespace:BindableApplicationBar;assembly=BindableApplicationBar"
+    xmlns:tk="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="696"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True"
+    tk:TiltEffect.IsTiltEnabled="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle" Text="{Binding SampleStrings.ApplicationTitle, Source={StaticResource ApplicationStrings}}" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="PageTitle" Text="{Binding SampleStrings.ItemListTitle, Source={StaticResource ApplicationStrings}}" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <TextBlock x:Name="LoadingTextBlock" Style="{StaticResource PhoneTextLargeStyle}"
+                       Text="{Binding Statuses.LoadingLabel, Source={StaticResource PhoneCommonStrings}}" />
+            
+            <ListBox x:Name="ItemsListBox">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Tap="ListItem_Tap">
+                            <tk:ContextMenuService.ContextMenu>
+                                <tk:ContextMenu>
+                                    <tk:MenuItem 
+                                        Header="{Binding Actions.PinToStartAction, Source={StaticResource PhoneCommonStrings}}"
+                                        />
+                                    <tk:MenuItem 
+                                        Header="{Binding Actions.DeleteAction, Source={StaticResource PhoneCommonStrings}}"
+                                        />
+                                </tk:ContextMenu>
+                            </tk:ContextMenuService.ContextMenu>
+                            <TextBlock Text="{Binding}" Style="{StaticResource PhoneTextExtraLargeStyle}" />
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+                <ListBox.Items>
+                    <sys:String>Item 1</sys:String>
+                    <sys:String>Item 2</sys:String>
+                    <sys:String>Item 3</sys:String>
+                    <sys:String>Item 4</sys:String>
+                    <sys:String>Item 5</sys:String>
+                </ListBox.Items>
+            </ListBox>
+        </Grid>
+        
+    </Grid>
+
+    <bab:Bindable.ApplicationBar>
+        <bab:BindableApplicationBar IsVisible="True">
+            <bab:BindableApplicationBarButton
+                IconUri="/Icons/appbar.add.rest.png"
+                Text="{Binding Actions.AddAction, Source={StaticResource PhoneCommonStrings}}"
+                />
+            <bab:BindableApplicationBarButton
+                IconUri="/Icons/appbar.feature.search.rest.png"
+                Text="{Binding Actions.SearchAction, Source={StaticResource PhoneCommonStrings}}"
+                />
+            
+            <bab:BindableApplicationBar.MenuItems>
+                <bab:BindableApplicationBarMenuItem
+                    Text="{Binding Actions.RefreshAction, Source={StaticResource PhoneCommonStrings}}"
+                    Command="{Binding RefreshCommand}"
+                    />
+
+                <bab:BindableApplicationBarMenuItem
+                    Text="{Binding Actions.GoToSettingsPageAction, Source={StaticResource PhoneCommonStrings}}"
+                    Command="{Binding GoToSettingsPageCommand}"
+                    />
+
+                <bab:BindableApplicationBarMenuItem
+                    Text="{Binding Actions.GoToAboutPageAction, Source={StaticResource PhoneCommonStrings}}"
+                    Command="{Binding GoToAboutPageCommand}"
+                    />
+            </bab:BindableApplicationBar.MenuItems>
+        </bab:BindableApplicationBar>
+    </bab:Bindable.ApplicationBar>
+
+</phone:PhoneApplicationPage>

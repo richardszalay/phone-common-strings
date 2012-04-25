@@ -8,8 +8,11 @@
 _ReSharper.*/
 *.resharper.user
 
+# dotCover Ignores
+*.dotCover
+
 # NuGet Ignores
-packages/*/
+source/packages/*/
 
 # Misc Ignores
 Thumbs.db
