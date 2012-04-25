@@ -10,7 +10,7 @@
     <projectUrl>http://github.com/richardszalay/phone-common-strings</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Initial release</releaseNotes>
+    <releaseNotes>Fixed content type on nuget readme that was causing it to appear in the project</releaseNotes>
     <copyright>Copyright 2012</copyright>
     <tags>wp7 wp7dev localization</tags>
   </metadata>
