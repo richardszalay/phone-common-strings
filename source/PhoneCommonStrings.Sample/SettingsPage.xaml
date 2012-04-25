@@ -56,7 +56,7 @@
 
                 <TextBlock Text="{Binding SampleStrings.DisplayLanguageLabel, Source={StaticResource ApplicationStrings}}" Style="{StaticResource PhoneTextNormalStyle}" Margin="12,24,0,0" />
                 <tk:ListPicker ItemsSource="{Binding LanguageOptions}" SelectedItem="{Binding SelectedLanguageOption, Mode=TwoWay}"
-                               FullModeHeader="{Binding SampleStrings.DisplayLanguageListTitle, Source={StaticResource ApplicationStrings}}">
+                               FullModeHeader="{Binding SampleStrings.DisplayLanguageParentTitle, Source={StaticResource ApplicationStrings}}">
                     <tk:ListPicker.ItemTemplate>
                         <DataTemplate>
                             <TextBlock Text="{Binding DisplayName}" Style="{StaticResource PhoneTextNormalStyle}" 

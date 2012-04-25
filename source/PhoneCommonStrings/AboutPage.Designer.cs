@@ -63,9 +63,9 @@ namespace PhoneCommonStrings {
         /// <summary>
         ///   Looks up a localized string similar to ABOUT.
         /// </summary>
-        public static string ChildTitle {
+        public static string ParentTitle {
             get {
-                return ResourceManager.GetString("ChildTitle", resourceCulture);
+                return ResourceManager.GetString("ParentTitle", resourceCulture);
             }
         }
         

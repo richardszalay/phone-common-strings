@@ -126,7 +126,7 @@
   <data name="DisplayLanguageLabel" xml:space="preserve">
     <value>Display language</value>
   </data>
-  <data name="DisplayLanguageListTitle" xml:space="preserve">
+  <data name="DisplayLanguageParentTitle" xml:space="preserve">
     <value>DISPLAY LANGUAGE</value>
   </data>
   <data name="EditItemTitle" xml:space="preserve">

@@ -117,7 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ChildTitle" xml:space="preserve">
+  <data name="ParentTitle" xml:space="preserve">
     <value>EINSTELLUNGEN</value>
     <comment>Can be used as the "parent" title on a settings child page</comment>
   </data>

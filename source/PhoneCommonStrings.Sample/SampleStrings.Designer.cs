@@ -90,9 +90,9 @@ namespace PhoneCommonStrings.Sample {
         /// <summary>
         ///   Looks up a localized string similar to DISPLAY LANGUAGE.
         /// </summary>
-        public static string DisplayLanguageListTitle {
+        public static string DisplayLanguageParentTitle {
             get {
-                return ResourceManager.GetString("DisplayLanguageListTitle", resourceCulture);
+                return ResourceManager.GetString("DisplayLanguageParentTitle", resourceCulture);
             }
         }
         
