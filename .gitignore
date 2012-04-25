@@ -1,0 +1,15 @@
+# Visual Studio Ignores
+[Bb]in/
+[Oo]bj/
+*.suo
+*.user
+
+# Resharper Ignores
+_ReSharper.*/
+*.resharper.user
+
+# NuGet Ignores
+packages/*/
+
+# Misc Ignores
+Thumbs.db
