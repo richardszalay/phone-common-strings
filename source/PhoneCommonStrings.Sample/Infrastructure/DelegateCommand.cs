@@ -25,11 +25,16 @@ namespace PhoneCommonStrings.Sample.Infrastructure
             return true;
         }
 
-        public event EventHandler CanExecuteChanged;
-
         public void Execute(object parameter)
         {
             action();
+        }
+
+        // Explicitly removed implementation to get rid of CS0067 warning
+        public event EventHandler CanExecuteChanged
+        {
+            add { }
+            remove { }
         }
     }
 }
