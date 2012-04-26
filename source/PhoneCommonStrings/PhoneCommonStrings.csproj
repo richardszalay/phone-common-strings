@@ -85,6 +85,13 @@
     <EmbeddedResource Include="Actions.fr-FR.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="AboutPage.es-ES.resx" />
+    <EmbeddedResource Include="Actions.es-ES.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsPage.es-ES.resx" />
+    <EmbeddedResource Include="Statuses.es-ES.resx" />
+    <EmbeddedResource Include="ThemeColors.es-ES.resx" />
     <EmbeddedResource Include="SettingsPage.fr-FR.resx" />
     <EmbeddedResource Include="Statuses.fr-FR.resx" />
     <EmbeddedResource Include="ThemeColors.fr-FR.resx" />

@@ -133,6 +133,7 @@ namespace PhoneCommonStrings.Sample
             new LanguageOption(new CultureInfo("ru-RU")),
             new LanguageOption(new CultureInfo("it-IT")),
             new LanguageOption(new CultureInfo("fr-FR")),
+            new LanguageOption(new CultureInfo("es-ES")),
             
         }.OrderBy(x => x.DisplayName).ToList();
     }
