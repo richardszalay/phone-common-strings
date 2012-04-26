@@ -16,7 +16,7 @@
     <TargetFrameworkProfile>WindowsPhone71</TargetFrameworkProfile>
     <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
     <SilverlightApplication>true</SilverlightApplication>
-    <SupportedCultures>en-US;en-GB;de-DE;ja-JP;ru-RU;zh-CN;zh-TW</SupportedCultures>
+    <SupportedCultures>en-US;en-GB;de-DE;ja-JP;ru-RU;zh-CN;zh-TW;it-IT</SupportedCultures>
     <XapOutputs>true</XapOutputs>
     <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
     <XapFilename>PhoneCommonStrings.Sample.xap</XapFilename>
@@ -152,16 +152,16 @@
     <Content Include="Toolkit.Content\ApplicationBar.Select.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PhoneCommonStrings\PhoneCommonStrings.csproj">
-      <Project>{2338869B-1D5D-4BCF-893E-7E3A6FDA05A1}</Project>
-      <Name>PhoneCommonStrings</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="SampleStrings.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>SampleStrings.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PhoneCommonStrings\PhoneCommonStrings.csproj">
+      <Project>{2338869B-1D5D-4BCF-893E-7E3A6FDA05A1}</Project>
+      <Name>PhoneCommonStrings</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.CSharp.targets" />
