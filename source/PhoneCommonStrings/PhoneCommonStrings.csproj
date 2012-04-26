@@ -93,6 +93,13 @@
     <EmbeddedResource Include="Actions.pt-BR.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="AboutPage.hu-HU.resx" />
+    <EmbeddedResource Include="Actions.hu-HU.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsPage.hu-HU.resx" />
+    <EmbeddedResource Include="Statuses.hu-HU.resx" />
+    <EmbeddedResource Include="ThemeColors.hu-HU.resx" />
     <EmbeddedResource Include="SettingsPage.pt-BR.resx" />
     <EmbeddedResource Include="Statuses.pt-BR.resx" />
     <EmbeddedResource Include="ThemeColors.pt-BR.resx" />
