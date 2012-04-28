@@ -137,6 +137,7 @@ namespace PhoneCommonStrings.Sample
             new LanguageOption(new CultureInfo("pt-BR")),
             new LanguageOption(new CultureInfo("hu-HU")),
             new LanguageOption(new CultureInfo("cs-CZ")),
+            new LanguageOption(new CultureInfo("ko-KR")),
 
         }.OrderBy(x => x.DisplayName).ToList();
     }
