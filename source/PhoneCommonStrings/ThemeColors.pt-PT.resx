@@ -121,13 +121,13 @@
     <value>azul</value>
   </data>
   <data name="Brown" xml:space="preserve">
-    <value>marrom</value>
+    <value>castanho</value>
   </data>
   <data name="Green" xml:space="preserve">
     <value>verde</value>
   </data>
   <data name="Lime" xml:space="preserve">
-    <value>verde-limão</value>
+    <value>lima</value>
   </data>
   <data name="Magenta" xml:space="preserve">
     <value>magenta</value>
@@ -136,18 +136,18 @@
     <value>laranja</value>
   </data>
   <data name="Pink" xml:space="preserve">
-    <value>rosa</value>
+    <value>rosa choque</value>
   </data>
   <data name="Purple" xml:space="preserve">
-    <value>roxo</value>
+    <value>púrpura</value>
   </data>
   <data name="Red" xml:space="preserve">
     <value>vermelho</value>
   </data>
   <data name="Teal" xml:space="preserve">
-    <value>azul-petróleo</value>
+    <value>verde cinza</value>
   </data>
   <data name="Theme" xml:space="preserve">
-    <value>cor do tema</value>
+    <value>cor do ambiente</value>
   </data>
 </root>

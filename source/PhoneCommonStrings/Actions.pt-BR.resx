@@ -130,7 +130,7 @@
     <comment>Deletes an object so it is no longer available</comment>
   </data>
   <data name="DoneAction" xml:space="preserve">
-    <value>concluido</value>
+    <value>concluído</value>
     <comment>An alternative to "save", accepts pending changes to a settings screen. Usually associated with the "tick" icon</comment>
   </data>
   <data name="EditAction" xml:space="preserve">

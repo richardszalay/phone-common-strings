@@ -117,37 +117,68 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Blue" xml:space="preserve">
-    <value>azul</value>
+  <data name="AddAction" xml:space="preserve">
+    <value>adicionar</value>
+    <comment>Adds an object to a list or navigates to a screen where the details for a new object can be entered</comment>
   </data>
-  <data name="Brown" xml:space="preserve">
-    <value>marrom</value>
+  <data name="CancelAction" xml:space="preserve">
+    <value>cancelar</value>
+    <comment>Used to cancel an action</comment>
   </data>
-  <data name="Green" xml:space="preserve">
-    <value>verde</value>
+  <data name="DeleteAction" xml:space="preserve">
+    <value>eliminar</value>
+    <comment>Deletes an object so it is no longer available</comment>
   </data>
-  <data name="Lime" xml:space="preserve">
-    <value>verde-limão</value>
+  <data name="DoneAction" xml:space="preserve">
+    <value>concluído</value>
+    <comment>An alternative to "save", accepts pending changes to a settings screen. Usually associated with the "tick" icon</comment>
   </data>
-  <data name="Magenta" xml:space="preserve">
-    <value>magenta</value>
+  <data name="EditAction" xml:space="preserve">
+    <value>editar</value>
+    <comment>Usually navigates to a screen where the details of an object can be changed</comment>
   </data>
-  <data name="Mango" xml:space="preserve">
-    <value>laranja</value>
+  <data name="GoToAboutPageAction" xml:space="preserve">
+    <value>acerca de</value>
+    <comment>Navigates to the "about" screen that provides information about the application, including version, legal and author information</comment>
   </data>
-  <data name="Pink" xml:space="preserve">
-    <value>rosa</value>
+  <data name="GoToSettingsPageAction" xml:space="preserve">
+    <value>definições</value>
+    <comment>Navigates to the "settings" screen where the user can change options for the application</comment>
   </data>
-  <data name="Purple" xml:space="preserve">
-    <value>roxo</value>
+  <data name="NewAction" xml:space="preserve">
+    <value>novo</value>
+    <comment>Can be used as an alternative to "add" if it is more appropriate</comment>
   </data>
-  <data name="Red" xml:space="preserve">
-    <value>vermelho</value>
+  <data name="PinAction" xml:space="preserve">
+    <value>afixar</value>
+    <comment>Used to pin the current page to the start screen</comment>
   </data>
-  <data name="Teal" xml:space="preserve">
-    <value>azul-petróleo</value>
+  <data name="PinToStartAction" xml:space="preserve">
+    <value>afixar ao início</value>
+    <comment>Used to pin the current page to the start screen</comment>
   </data>
-  <data name="Theme" xml:space="preserve">
-    <value>cor do tema</value>
+  <data name="RefreshAction" xml:space="preserve">
+    <value>actualizar</value>
+    <comment>Used to refresh the status of, for example, objects in a list</comment>
+  </data>
+  <data name="SaveAction" xml:space="preserve">
+    <value>guardar</value>
+    <comment>Commits unsaved changes (similar to editing a phone number in contacts)</comment>
+  </data>
+  <data name="SearchAction" xml:space="preserve">
+    <value>pesquisar</value>
+    <comment>Used to search for an object, usually remotely</comment>
+  </data>
+  <data name="SelectAction" xml:space="preserve">
+    <value>selectionar</value>
+    <comment>Used to select multiple items from a list</comment>
+  </data>
+  <data name="ShareAction" xml:space="preserve">
+    <value>partilhar</value>
+    <comment>Used to share content with others, typically via a social network</comment>
+  </data>
+  <data name="SynchronizeAction" xml:space="preserve">
+    <value>sincronizar</value>
+    <comment>Used to update information in a local and remote place so the have parity</comment>
   </data>
 </root>

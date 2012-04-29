@@ -118,36 +118,36 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Blue" xml:space="preserve">
-    <value>azul</value>
+    <value>sininen</value>
   </data>
   <data name="Brown" xml:space="preserve">
-    <value>marrom</value>
+    <value>ruskea</value>
   </data>
   <data name="Green" xml:space="preserve">
-    <value>verde</value>
+    <value>vihreä</value>
   </data>
   <data name="Lime" xml:space="preserve">
-    <value>verde-limão</value>
+    <value>lime</value>
   </data>
   <data name="Magenta" xml:space="preserve">
-    <value>magenta</value>
+    <value>purppura</value>
   </data>
   <data name="Mango" xml:space="preserve">
-    <value>laranja</value>
+    <value>mango</value>
   </data>
   <data name="Pink" xml:space="preserve">
-    <value>rosa</value>
+    <value>vaaleanpunainen</value>
   </data>
   <data name="Purple" xml:space="preserve">
-    <value>roxo</value>
+    <value>violetti</value>
   </data>
   <data name="Red" xml:space="preserve">
-    <value>vermelho</value>
+    <value>punainen</value>
   </data>
   <data name="Teal" xml:space="preserve">
-    <value>azul-petróleo</value>
+    <value>turkoosi</value>
   </data>
   <data name="Theme" xml:space="preserve">
-    <value>cor do tema</value>
+    <value>korostusväri</value>
   </data>
 </root>

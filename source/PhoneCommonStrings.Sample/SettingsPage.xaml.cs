@@ -135,6 +135,7 @@ namespace PhoneCommonStrings.Sample
             new LanguageOption(new CultureInfo("fr-FR")),
             new LanguageOption(new CultureInfo("es-ES")),
             new LanguageOption(new CultureInfo("pt-BR")),
+            new LanguageOption(new CultureInfo("pt-PT")),
             new LanguageOption(new CultureInfo("hu-HU")),
             new LanguageOption(new CultureInfo("cs-CZ")),
             new LanguageOption(new CultureInfo("ko-KR")),
@@ -142,6 +143,7 @@ namespace PhoneCommonStrings.Sample
             new LanguageOption(new CultureInfo("nl-NL")),
             new LanguageOption(new CultureInfo("nb-NO")),
             new LanguageOption(new CultureInfo("pl-PL")),
+            new LanguageOption(new CultureInfo("fi-FI")),
 
         }.OrderBy(x => x.DisplayName).ToList();
     }
