@@ -10,7 +10,7 @@
     <projectUrl>http://github.com/richardszalay/phone-common-strings</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Added it-IT, fr-FR, es-ES, pt-BR, hu-HU, and cs-CZ translations</releaseNotes>
+    <releaseNotes>Added ko-KR, da-DK, nl-NL, nb-NO, pl-PL, pt-PT, fi-FI, el-GR and sv-SE translations</releaseNotes>
     <copyright>Copyright 2012</copyright>
     <tags>wp7 wp7dev localization</tags>
   </metadata>
