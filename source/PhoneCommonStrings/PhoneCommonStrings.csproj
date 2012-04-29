@@ -113,6 +113,13 @@
     <EmbeddedResource Include="Actions.nl-NL.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="AboutPage.nb-NO.resx" />
+    <EmbeddedResource Include="Actions.nb-NO.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsPage.nb-NO.resx" />
+    <EmbeddedResource Include="Statuses.nb-NO.resx" />
+    <EmbeddedResource Include="ThemeColors.nb-NO.resx" />
     <EmbeddedResource Include="SettingsPage.nl-NL.resx" />
     <EmbeddedResource Include="Statuses.nl-NL.resx" />
     <EmbeddedResource Include="ThemeColors.nl-NL.resx" />

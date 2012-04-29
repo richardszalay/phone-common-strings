@@ -140,6 +140,7 @@ namespace PhoneCommonStrings.Sample
             new LanguageOption(new CultureInfo("ko-KR")),
             new LanguageOption(new CultureInfo("da-DK")),
             new LanguageOption(new CultureInfo("nl-NL")),
+            new LanguageOption(new CultureInfo("nb-NO")),
 
         }.OrderBy(x => x.DisplayName).ToList();
     }
