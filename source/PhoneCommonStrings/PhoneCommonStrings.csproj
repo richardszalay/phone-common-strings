@@ -105,6 +105,13 @@
     <EmbeddedResource Include="Actions.ko-KR.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="AboutPage.da-DK.resx" />
+    <EmbeddedResource Include="Actions.da-DK.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsPage.da-DK.resx" />
+    <EmbeddedResource Include="Statuses.da-DK.resx" />
+    <EmbeddedResource Include="ThemeColors.da-DK.resx" />
     <EmbeddedResource Include="SettingsPage.ko-KR.resx" />
     <EmbeddedResource Include="Statuses.ko-KR.resx" />
     <EmbeddedResource Include="ThemeColors.ko-KR.resx" />
