@@ -117,6 +117,13 @@
     <EmbeddedResource Include="Actions.nb-NO.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="AboutPage.pl-PL.resx" />
+    <EmbeddedResource Include="Actions.pl-PL.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsPage.pl-PL.resx" />
+    <EmbeddedResource Include="Statuses.pl-PL.resx" />
+    <EmbeddedResource Include="ThemeColors.pl-PL.resx" />
     <EmbeddedResource Include="SettingsPage.nb-NO.resx" />
     <EmbeddedResource Include="Statuses.nb-NO.resx" />
     <EmbeddedResource Include="ThemeColors.nb-NO.resx" />

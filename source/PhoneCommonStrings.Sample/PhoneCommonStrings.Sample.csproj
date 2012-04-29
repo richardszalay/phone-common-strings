@@ -16,7 +16,7 @@
     <TargetFrameworkProfile>WindowsPhone71</TargetFrameworkProfile>
     <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
     <SilverlightApplication>true</SilverlightApplication>
-    <SupportedCultures>en-US;en-GB;de-DE;ja-JP;ru-RU;zh-CN;zh-TW;it-IT;fr-FR;es-ES;pt-BR;hu-HU;cs-CZ;ko-KR;da-DK;nl-NL;nb-NO</SupportedCultures>
+    <SupportedCultures>en-US;en-GB;de-DE;ja-JP;ru-RU;zh-CN;zh-TW;it-IT;fr-FR;es-ES;pt-BR;hu-HU;cs-CZ;ko-KR;da-DK;nl-NL;nb-NO;pl-PL</SupportedCultures>
     <XapOutputs>true</XapOutputs>
     <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
     <XapFilename>PhoneCommonStrings.Sample.xap</XapFilename>
