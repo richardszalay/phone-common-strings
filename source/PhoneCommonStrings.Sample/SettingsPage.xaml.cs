@@ -144,6 +144,8 @@ namespace PhoneCommonStrings.Sample
             new LanguageOption(new CultureInfo("nb-NO")),
             new LanguageOption(new CultureInfo("pl-PL")),
             new LanguageOption(new CultureInfo("fi-FI")),
+            new LanguageOption(new CultureInfo("sv-SE")),
+            new LanguageOption(new CultureInfo("el-GR")),
 
         }.OrderBy(x => x.DisplayName).ToList();
     }

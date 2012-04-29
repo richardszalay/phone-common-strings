@@ -129,6 +129,20 @@
     <EmbeddedResource Include="Actions.fi-FI.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="AboutPage.sv-SE.resx" />
+    <EmbeddedResource Include="Actions.sv-SE.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutPage.el-GR.resx" />
+    <EmbeddedResource Include="Actions.el-GR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsPage.el-GR.resx" />
+    <EmbeddedResource Include="Statuses.el-GR.resx" />
+    <EmbeddedResource Include="ThemeColors.el-GR.resx" />
+    <EmbeddedResource Include="SettingsPage.sv-SE.resx" />
+    <EmbeddedResource Include="Statuses.sv-SE.resx" />
+    <EmbeddedResource Include="ThemeColors.sv-SE.resx" />
     <EmbeddedResource Include="SettingsPage.fi-FI.resx" />
     <EmbeddedResource Include="Statuses.fi-FI.resx" />
     <EmbeddedResource Include="ThemeColors.fi-FI.resx" />
